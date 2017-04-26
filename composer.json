@@ -1,0 +1,25 @@
+{
+    "name": "tpmanc/blizko-mailbox",
+    "keywords": ["blizko", "blizko.ru", "mail", "parser", "mailbox"],
+    "description": "Get blizko.ru orders and messages from mailbox",
+    "homepage": "https://github.com/tpmanc/blizko-mailbox",
+    "license": "BSD-3-Clause",
+    "minimum-stability" : "dev",
+    "authors": [
+        {
+            "name": "tpmanc",
+            "email": "tpxtrime@mail.ru",
+            "homepage": "https://tpmanc.github.io",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"tpmanc\\blizko\\": "src"}
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
